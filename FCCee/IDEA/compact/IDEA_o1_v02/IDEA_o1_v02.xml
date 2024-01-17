@@ -39,13 +39,19 @@
   <include ref="LumiCal_o1_v01.xml"/>
 
   <!-- Import vertex -->
-  <include ref="Vertex_IDEA_o1_v01.xml"/>
+  <include ref="Vertex_IDEA_o1_v01.xml"/>-->
 
   <!-- Import drift chamber -->
   <include ref="DriftChamber_o1_v01.xml"/>
 
   <!-- Import silicon wrapper -->
   <!-- <include ref="SiliconWrapper_o1_v01.xml"/> -->
+
+  <!-- Import the PreShower -->
+  <include ref="PreShower_o1_v01.xml"/>
+
+  <!-- Import the muon system including yoke -->
+  <include ref="MuonSystem_o1_v01.xml"/>
 
   <plugins>
     <plugin name="DD4hepVolumeManager"/>

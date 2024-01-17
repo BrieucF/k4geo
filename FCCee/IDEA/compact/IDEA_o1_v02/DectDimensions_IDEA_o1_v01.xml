@@ -30,18 +30,22 @@
     
     <constant name="DetID_VXD_IB"       value=" 1"/>
     <constant name="DetID_VXD_Disks"       value=" 2"/>
-    <constant name="DetID_DCH"              value=" 3"/>
-    <constant name="DetID_Calo_Barrel"      value=" 4"/>
-    <constant name="DetID_Calo_Endcap"      value=" 5"/>
-    <constant name="DetID_Calo_Endcap_2"    value=" 6"/>
-    <constant name="DetID_VXD_OB"  value=" 20"/>
+    <constant name="DetID_VXD_OB"  value="3"/>
 
-    <constant name="DetID_HCAL_Barrel"      value=" 10"/>
-    <constant name="DetID_HCAL_Endcap"      value=" 11"/>
-    <constant name="DetID_HCAL_Ring"        value=" 12"/>
+    <constant name="DetID_DCH"              value=" 4"/>
+
+    <constant name="DetID_SiWrapper_Barrel"       value=" 5"/>
+    <constant name="DetID_SiWrapper_Disks"       value=" 6"/>
+
+    <constant name="DetID_PreShower_Barrel"      value=" 7"/>
+    <constant name="DetID_PreShower_Positive_Endcap"      value=" 8"/>
+    <constant name="DetID_PreShower_Negative_Endcap"      value=" 9"/>
+
+    <constant name="DetID_Calo"      value=" 10"/>
     
-    <constant name="DetID_Yoke_Barrel"      value=" 13"/>
-    <constant name="DetID_Yoke_Endcap"      value=" 14"/>
+    <constant name="DetID_Muon_Barrel"      value=" 12"/>
+    <constant name="DetID_Muon_Positive_Endcap"      value=" 13"/>
+    <constant name="DetID_Muon_Negative_Endcap"      value=" 14"/>
     
     <constant name="DetID_LumiCal"          value=" 15"/>
     <constant name="DetID_LumiCalInstrumentation"          value=" 16"/>
@@ -50,8 +54,6 @@
     <constant name="DetID_HOMAbsorber"          value=" 19"/>
     <constant name="DetID_LumiCalNoseShield"          value=" 22"/>
     
-    <constant name="DetID_SiWrapper_Barrel"       value=" 23"/>
-    <constant name="DetID_SiWrapper_Disks"       value=" 24"/>
 
         <!-- BPW: Beam Pipe Width -->
     <constant name="BPWWall"       value="0.35*mm" />
