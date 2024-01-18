@@ -56,7 +56,7 @@
   <detectors>
 
     <!-- B A R R E L S -->
-    <detector name="PreShowerBarrel" type="SimpleSensitiveLayeredCylinder_o1_v00"  vis=" MuonVis " id="DetID_PreShower_Barrel" readout="PreShowerBarrelReadout">
+    <detector name="PreShowerBarrel" type="SimpleSensitiveLayeredCylinder_o1_v01"  vis=" MuonVis " id="DetID_PreShower_Barrel" readout="PreShowerBarrelReadout">
       <dimensions rmin="PS_BarrelInnerRadius" rmax="PS_BarrelOuterRadius" dz="PS_BarrelLength/2.0" z_offset="0*cm" material="Air" />
       <sensitive type="SimpleTrackerSD"/>
       <!-- 1st & only mRWELL layer -->
@@ -75,7 +75,7 @@
        </detector>
 
     <!-- Positve E n d C a p - -->
-    <detector name="PreShowerPositiveEndcap" type="SimpleSensitiveLayeredCylinder_o1_v00"  vis="MuonVisEnv" id="DetID_PreShower_Positive_Endcap" readout="PreShowerPositiveEndcapReadout">
+    <detector name="PreShowerPositiveEndcap" type="SimpleSensitiveLayeredCylinder_o1_v01"  vis="MuonVisEnv" id="DetID_PreShower_Positive_Endcap" readout="PreShowerPositiveEndcapReadout">
       <sensitive type="SimpleTrackerSD"/>
       <dimensions rmin="PS_EndcapInnerRadius" rmax="PS_EndcapOuterRadius" dz="PS_EndcapLength/2.0" z_offset="PS_EndcapZOffset" material="Air"/>
       <!-- 1st Endcap mRWELL layer -->
@@ -95,7 +95,7 @@
 
 
     <!-- Negative E n d C a p -->
-    <detector name="PreShowerNegativeEndcap" type="SimpleSensitiveLayeredCylinder_o1_v00"  vis="MuonVisEnv" id="DetID_PreShower_Negative_Endcap" readout="PreShowerNegativeEndcapReadout">
+    <detector name="PreShowerNegativeEndcap" type="SimpleSensitiveLayeredCylinder_o1_v01"  vis="MuonVisEnv" id="DetID_PreShower_Negative_Endcap" readout="PreShowerNegativeEndcapReadout">
       <sensitive type="SimpleTrackerSD"/>
       <dimensions rmin="PS_EndcapInnerRadius" rmax="PS_EndcapOuterRadius" dz="PS_EndcapLength/2.0" z_offset="-PS_EndcapZOffset" material="Air"/>
 

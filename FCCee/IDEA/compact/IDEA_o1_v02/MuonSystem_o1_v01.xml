@@ -63,7 +63,7 @@
   <detectors>
 
     <!-- B A R R E L S -->
-    <detector name="MuonBarrel" type="SimpleSensitiveLayeredCylinder_o1_v00"  vis="MuonVisEnv" id="DetID_Muon_Barrel" readout="MuonChamberBarrelReadout">
+    <detector name="MuonBarrel" type="SimpleSensitiveLayeredCylinder_o1_v01"  vis="MuonVisEnv" id="DetID_Muon_Barrel" readout="MuonChamberBarrelReadout">
       <dimensions rmin="BarrelInnerRadius" rmax="BarrelOuterRadius" dz="BarrelThirdLayerLength/2.0" z_offset="0*cm" material="Air" />
       <sensitive type="SimpleTrackerSD"/>
       <!-- 1st mRWELL layer -->
@@ -124,7 +124,7 @@
 
 
     <!-- Positve E n d C a p - -->
-    <detector name="MuonPositiveEndcap" type="SimpleSensitiveLayeredCylinder_o1_v00"  vis="MuonVisEnv" id="DetID_Muon_Positive_Endcap" readout="MuonChamberPositiveEndcapReadout">
+    <detector name="MuonPositiveEndcap" type="SimpleSensitiveLayeredCylinder_o1_v01"  vis="MuonVisEnv" id="DetID_Muon_Positive_Endcap" readout="MuonChamberPositiveEndcapReadout">
       <sensitive type="SimpleTrackerSD"/>
       <dimensions rmin="EndcapInnerRadius" rmax="EndcapOuterRadius" dz="EndcapLength/2.0" z_offset="EndcapZOffset" material="Air"/>
       <!-- 1st Endcap mRWELL layer -->
@@ -180,7 +180,7 @@
 
 
     <!-- Negative E n d C a p -->
-    <detector name="MuonNegativeEndcap" type="SimpleSensitiveLayeredCylinder_o1_v00"  vis="MuonVisEnv" id="DetID_Muon_Negative_Endcap" readout="MuonChamberNegativeEndcapReadout">
+    <detector name="MuonNegativeEndcap" type="SimpleSensitiveLayeredCylinder_o1_v01"  vis="MuonVisEnv" id="DetID_Muon_Negative_Endcap" readout="MuonChamberNegativeEndcapReadout">
       <sensitive type="SimpleTrackerSD"/>
       <dimensions rmin="EndcapInnerRadius" rmax="EndcapOuterRadius" dz="EndcapLength/2.0" z_offset="-EndcapZOffset" material="Air"/>
 
