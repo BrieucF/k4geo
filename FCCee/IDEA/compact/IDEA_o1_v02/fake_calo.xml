@@ -1,0 +1,17 @@
+<lccdd>
+
+  <info name="EndPlateAbsorber" title="EndPlateAbsorber" status="development" version="$Id: $">
+    <comment>
+      Fake calorimeter to have 22 X0 after the solenoid
+    </comment>
+  </info>
+
+  <detectors>
+
+    <detector name="FakeCalo" type="SimpleCylinder_o1_v01" vis="muon_vis">
+      <dimensions rmin="2500*mm" rmax="2623.464*mm" dz="2500*mm" z_offset = "0*mm" material="Lead" phi0="0" deltaphi="360*deg" vis="muon_vis"/>
+    </detector>
+
+  </detectors>
+
+</lccdd>
